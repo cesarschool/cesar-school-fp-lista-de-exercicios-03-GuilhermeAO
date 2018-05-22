@@ -38,7 +38,15 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 3")
+      from operator import itemgetter
+    lista1 = []
+    while True:
+        ino = input('')
+        if ino == '':
+            break
+        ino =ino.split(',')
+        listaf.append((tuple(ino )))
+    print(sorted(tuple(lista1), key=itemgetter(0,1,2)))
 
 
     
