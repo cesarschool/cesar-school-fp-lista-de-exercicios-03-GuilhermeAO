@@ -27,8 +27,16 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 2")
-
+  from string import *
+    user_in = input('Digite uma frase: ')
+     user_in= user_in.split()
+    m = []
+    for x in :
+        m.append("{}:{}".format(x,y.count(i)))
+    m = list(set(m))
+    m = sorted(m)
+    for x in m:
+        print(x' !')
 
 
 if __name__ == '__main__':
